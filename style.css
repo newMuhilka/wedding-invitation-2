@@ -1,13 +1,12 @@
 :root {
-  --pink: #f14e95;
+  --button: #c2c4a1;
   --bg: #0a0a0a;
   --shadow: 0 2px 2px rgb(0, 0, 0, 0.5);
 }
 
 body {
   font-size: 1.2rem;
-  /* font-family: 'Fleur De Leah'; */
-  font-family: 'Verdana', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   min-height: 2000px;
 }
 
@@ -19,6 +18,7 @@ body {
 .hero h1 {
   font-family: Fleur De Leah, cursive;
   font-size: 6rem;
+  margin-block: 1rem;
 
 }
 
@@ -32,11 +32,11 @@ body {
 }
 
 .hero a {
-  background-color: white;
-  color: var(--pink); /* untuk sementara cuma bisa pink */
+  background-color: #1e1b4b;
+  color: var(--button); 
 }
 
 .hero a:hover {
-  background-color: var(--pink); /* untuk sementara cuma bisa pink */
-  color: white; 
+  background-color: var(--button);
+  color: #1e1b4b; 
 }

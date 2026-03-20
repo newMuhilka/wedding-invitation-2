@@ -22,19 +22,19 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   z-index: -1;
-  filter: grayscale();
+  filter: grayscale(75%) brightness(75%);
 }
 
 .hero {
   position: relative;
   min-height: 100vh;
+  text-shadow: var(--shadow);
 }
 
 .hero h1 {
   font-family: Fleur De Leah, cursive;
   font-size: 6rem;
   margin-block: 1rem;
-
 }
 
 .hero h4 {
@@ -49,11 +49,13 @@ body {
 .hero a {
   background-color: #1e1b4b;
   color: var(--button);
+  box-shadow: var(--shadow);
 }
 
 .hero a:hover {
   background-color: var(--button);
   color: #1e1b4b;
+  text-shadow: none;
 }
 
 /* Media Query */
@@ -65,9 +67,7 @@ body {
 
   .simply-countdown-circle>.simply-section {
     padding: 70px;
-
   }
-
 }
 
 /* Tablet */
@@ -79,7 +79,6 @@ body {
   .simply-countdown-circle>.simply-section {
     padding: 60px;
     margin: 5px;
-
   }
 }
 

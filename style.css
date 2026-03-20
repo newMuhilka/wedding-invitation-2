@@ -7,7 +7,7 @@
 body {
   font-size: 1.2rem;
   font-family: 'Work Sans', sans-serif;
-  min-height: 2000px;
+  min-height: 4000px;
 }
 
 .hero::before {
@@ -58,6 +58,20 @@ body {
   text-shadow: none;
 }
 
+.mynavbar {}
+
+.mynavbar .navbar-brand,
+.mynavbar .offcanvas-title {
+  font-family: Fleur De Leah, cursive;
+  font-size: 3.2rem;
+}
+
+.mynavbar .nav-link {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
 /* Media Query */
 /* Laptop */
 @media (max-width: 1200px) {
@@ -80,6 +94,12 @@ body {
     padding: 60px;
     margin: 5px;
   }
+
+  .mynavbar .nav-link {
+    font-size: 2rem;
+    text-align: center;
+  }
+
 }
 
 /* Mobile Phone */
@@ -92,5 +112,10 @@ body {
     padding: 45px;
     margin: 3px;
 
+  }
+
+  .mynavbar .nav-link {
+    font-size: 1.2rem;
+    text-align: center;
   }
 }

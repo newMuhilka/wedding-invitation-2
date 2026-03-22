@@ -58,7 +58,10 @@ body {
   text-shadow: none;
 }
 
-.mynavbar {}
+.mynavbar {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  backdrop-filter: blur(3px);
+}
 
 .mynavbar .navbar-brand,
 .mynavbar .offcanvas-title {
@@ -71,6 +74,55 @@ body {
   font-size: 1.2rem;
   font-weight: bold;
 }
+
+.venue {
+  background-image: url(img/annie-spratt-OWq8w3BYMFY-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  min-height: 100vh;
+  margin-top: -6rem;
+  padding-top: 15rem;
+  padding-bottom: 5rem;
+}
+
+.venue h2 {
+  font-family: Fleur De Leah, cursive;
+  font-size: 4rem;
+  color: black;
+  text-shadow: var(--shadow);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.venue h3 {
+  font-size: 1.8rem;
+  color: black;
+  /* text-shadow: var(--shadow); */
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.venue p {
+  font-size: 1.2rem;
+  color: black;
+  /* text-shadow: var(--shadow); */
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.venue a {
+  background-color: #1e1b4b;
+  color: var(--button);
+  box-shadow: var(--shadow);
+}
+
+.venue a:hover {
+  background-color: var(--button);
+  color: #1e1b4b;
+  text-shadow: none;
+}
+
 
 /* Media Query */
 /* Laptop */

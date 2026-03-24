@@ -79,11 +79,12 @@ body {
   background-image: url(img/annie-spratt-OWq8w3BYMFY-unsplash.jpg);
   background-size: cover;
   background-position: center;
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   min-height: 100vh;
   margin-top: -6rem;
   padding-top: 15rem;
   padding-bottom: 5rem;
+  filter: grayscale(30%) brightness(75%);
 }
 
 .venue h2 {
@@ -120,6 +121,10 @@ body {
   background-color: var(--button);
   color: #1e1b4b;
   text-shadow: none;
+}
+
+.venue-info {
+  background-color: rgb(215, 228, 218);
 }
 
 .venue .alamat {
